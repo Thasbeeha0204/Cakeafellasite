@@ -52,7 +52,7 @@ def streamlit_menu(sidebar_menu=1):
 selected = streamlit_menu(sidebar_menu=sidebar_Menu)
 # Home Page
 if selected == "About Cake Afella":
-    st.image('Headerbanner.jpg')
+    st.image('Headerbanner.JPG')
     st.write("""
 **At CakeAfella,** Our Exclusive assortment of permium and contemporay quality cakes is in high demand.
 
@@ -65,15 +65,15 @@ techniques in the creation of our premium cakes. Our primary focus on style ensu
 designs remains timeless,leaving you with cherished memories that never lose their allure.""")
 # General Cake Price details page
 if selected == "General Cake Price":
-        st.image('CakePrice.jpg')
+        st.image('CakePrice.JPG')
              
 #Dounts price details page
 if selected == "Dounts":
-        st.image('Donuts_Price.jpg')
+        st.image('Donuts_Price.JPG')
 
 #Cup Cakes price details page    
 if selected == "Cup Cakes":
-        st.image('CupCakes_Price.jpg')
+        st.image('CupCakes_Price.JPG')
 
 #Brownies price details page
 if selected == "Brownies":
